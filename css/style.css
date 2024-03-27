@@ -85,9 +85,8 @@ image {
   margin-right: 332px;
 }
 
-.link {
+.header-link {
   padding: 24px 0;
-  color: #404bbf;
 }
 
 /*---------- studio after ----------*/
@@ -122,20 +121,20 @@ image {
 
 /* ---------- nav style ---------- */
 
-.nav-links .link {
+.nav-links .header-link {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.nav-links .link:hover,
-.nav-links .link:focus {
+.nav-links .header-link:hover,
+.nav-links .header-link:focus {
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-links .link:active {
+.nav-links .header-link:active {
   text-decoration: none;
 }
 
